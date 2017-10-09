@@ -1,11 +1,11 @@
-function cifradoCesar(frase, n){
+function cipher(frase, n){
     var alfa = 'ABCDEFGHIJKLMOPQRSTUVXYZ';
     alfa.charCodeAt(n);
   fraseCifrada = frase.split('');
   for (var i=0; i<frase.length; i++){
   for (var j=0; j<n; j++){
     if((n - 65 + 33) % 26 + 65){
-        return 
+        return ;
   }
   else if(fraseCifrada[i]==90) 
   fraseCifrada[i]='A'; 
